@@ -1,8 +1,8 @@
 #
 # This policy configuration will be used by all qcom products
-# that inherit from AOSiP
+# that inherit from CarbonROM
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/aosip/sepolicy/qcom/common \
-    device/aosip/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/carbon/sepolicy/qcom/common \
+    device/carbon/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
