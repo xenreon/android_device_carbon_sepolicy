@@ -1,2 +1,4 @@
 # Allow NFC service to be found
 allow platform_app nfc_service:service_manager find;
+allow platform_app cache_recovery_file:dir create_dir_perms;
+allow platform_app cache_recovery_file:file create_file_perms;
