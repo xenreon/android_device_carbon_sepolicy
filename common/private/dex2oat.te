@@ -1,2 +1,0 @@
-allow dex2oat self:capability sys_admin;
-
